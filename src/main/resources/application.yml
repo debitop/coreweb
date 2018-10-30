@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: coreWeb
+  profiles:
+    active: developer
+
+server:
+  port: 8080
+  compression:
+    enabled: true
+    mime-types: application/json
