@@ -9,3 +9,7 @@ server:
   compression:
     enabled: true
     mime-types: application/json
+
+security:
+  basic:
+    enabled: false
